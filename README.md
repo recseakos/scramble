@@ -19,10 +19,30 @@ p roble m -> p elbor m
 
 ## How
 
-Implementation can be done in either Java, C++ or Python. It is important to provide unit tests that prove the working solution.
+Implementation can be done in either Java, C++ or Python. It is important to provide unit tests that prove the working solution. More about unit tests [here.](http://en.wikipedia.org/wiki/Unit_testing)
 
-More about unit tests: http://en.wikipedia.org/wiki/Unit_testing
+
 
 You can choose any kind of framework that suits you the best. Please provide the necessary build script that compiles your solution and runs the tests with one command. (Makefile, a simple bash script, or whatever you know. The point is to be able to compile and run tests with a single command.)
 
 The problem itself is not difficult. In this exercise, the emphasis is on showing the whole development cycle for a micro project. This means having tests, having a build system, and writing clean and readable code.
+
+## FAQ
+
+**Does the program need to read/write from/to the standard input/output?** <br>
+No. Reading and writing from standard input and output are not needed as the unit tests describe the behavour of the program. Check out unit test examples on the web.
+
+**I am lost. What kind of unit test framework shall I use?** <br>
+Here are some unit test framework suggestions:
+* C++  - Catch [Check out the tutorial](https://github.com/philsquared/Catch/blob/master/docs/tutorial.md)
+* Java - JUnit
+* Python - doctest
+
+**Does it have to work for sentences, or just words only?** <br>
+It has to work for sentences as well.
+
+Have fun!
+
+
+
+
